@@ -13,20 +13,24 @@ This project provides a simple Flask-based webhook that listens for Grafana aler
 
 Use code with caution.
 
-grafana-alert-webhook/
+#### grafana-alert-webhook/
+```
 ├── app.py # Main Flask application (the webhook logic)
 ├── servers.txt # File containing IP → Service name mappings
 ├── requirements.txt # Python dependencies
 ├── README.md # Documentation
+```
 
 ### 📜 Example `servers.txt`
 
 Each line contains: `<ip>,<service_name>`
 
 Example:
+```
 *.*.*.157,Database
 *.*.*.170,Web Server
 *.*.*.180,Application Server
+```
 
 ### ⚙️ Installation
 
